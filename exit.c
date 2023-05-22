@@ -9,6 +9,7 @@
  * (status and args)
  * Return: 0 on success.
  */
+
 int exit_shell(data_shell *datash)
 {
 	unsigned int ustatus;
