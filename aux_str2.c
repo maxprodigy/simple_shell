@@ -26,6 +26,7 @@ char *_strdup(const char *s)
  * @s: Type char pointer
  * Return: Always 0.
  */
+
 int _strlen(const char *s)
 {
 	int len;
