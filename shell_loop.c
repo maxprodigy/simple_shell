@@ -44,6 +44,7 @@ char *without_comment(char *in)
  *
  * Return: no return.
  */
+
 void shell_loop(data_shell *datash)
 {
 	int loop, i_eof;
