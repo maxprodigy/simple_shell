@@ -79,7 +79,6 @@ typedef struct line_list_s
  * @next: next node
  * Description: single linked list to store variables
  */
-
 typedef struct r_var_list
 {
 	int len_var;
