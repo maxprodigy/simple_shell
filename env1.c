@@ -33,6 +33,7 @@ int cmp_env_name(const char *nenv, const char *name)
  * Return: value of the environment variable if is found.
  * In other case, returns NULL.
  */
+
 char *_getenv(const char *name, char **_environ)
 {
 	char *ptr_env;
