@@ -8,6 +8,7 @@
  * @in: input string
  * Return: input without comments
  */
+
 char *without_comment(char *in)
 {
 	int i, up_to;
@@ -44,7 +45,6 @@ char *without_comment(char *in)
  *
  * Return: no return.
  */
-
 void shell_loop(data_shell *datash)
 {
 	int loop, i_eof;
