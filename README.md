@@ -1,2 +1,2 @@
 # simple_shell
-This is a team project
+This is a team project by Peter and Kyla
