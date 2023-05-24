@@ -40,6 +40,7 @@ sep_list *add_sep_node_end(sep_list **head, char sep)
  * @head: head of the linked list.
  * Return: no return.
  */
+
 void free_sep_list(sep_list **head)
 {
 	sep_list *temp;
