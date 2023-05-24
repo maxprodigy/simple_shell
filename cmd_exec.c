@@ -6,6 +6,7 @@
  * @i: type int pointer of index.
  * Return: 1 if the path is searchable in the cd, 0 otherwise.
  */
+
 int is_cdir(char *path, int *i)
 {
 	if (path[*i] == ':')
@@ -29,7 +30,6 @@ int is_cdir(char *path, int *i)
  * @_environ: environment variable
  * Return: location of the command.
  */
-
 char *_which(char *cmd, char **_environ)
 {
 	char *path, *ptr_path, *token_path, *dir;
