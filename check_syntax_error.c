@@ -8,6 +8,7 @@
  * @i: index
  * Return: repetitions
  */
+
 int repeated_char(char *input, int i)
 {
 	if (*(input - 1) == *input)
@@ -25,7 +26,6 @@ int repeated_char(char *input, int i)
  * Return: index of error. 0 when there are no
  * errors
  */
-
 int error_sep_op(char *input, int i, char last)
 {
 	int count;
