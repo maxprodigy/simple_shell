@@ -8,6 +8,7 @@
  *
  * Return: no return
  */
+
 void cd_dot(data_shell *datash)
 {
 	char pwd[PATH_MAX];
@@ -59,7 +60,6 @@ void cd_dot(data_shell *datash)
  * @datash: data relevant (directories)
  * Return: no return
  */
-
 void cd_to(data_shell *datash)
 {
 	char pwd[PATH_MAX];
