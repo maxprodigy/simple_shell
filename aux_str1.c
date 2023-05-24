@@ -54,6 +54,7 @@ char *_strcpy(char *dest, char *src)
  * @s2: type str compared
  * Return: Always 0.
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	int i;
