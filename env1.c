@@ -9,6 +9,7 @@
  *
  * Return: 0 if are not equal. Another value if they are.
  */
+
 int cmp_env_name(const char *nenv, const char *name)
 {
 	int i;
